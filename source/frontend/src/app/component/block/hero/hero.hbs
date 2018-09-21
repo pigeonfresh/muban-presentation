@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="./hero.scss">
+<script src="./Hero.ts"></script>
+
+<section class="hero" data-component="hero" {{#if scrollComponent}}data-scroll-component{{/if}}>
+  <picture class="visual-wrapper">
+    {{#each visual.source}}
+      <source media="{{media}}" srcset="{{srcset}}">
+    {{/each}}
+    <img src="{{visual.src}}" class="visual" data-visual alt="{{alt}}">
+  </picture>
+  <div class="copy">
+    <h1 data-title>{{title}}</h1>
+    <p data-copy>
+      {{copy}}
+    </p>
+  </div>
+</section>

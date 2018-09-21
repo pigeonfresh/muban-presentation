@@ -7,3 +7,8 @@ meta:
   category: '' # to group pages in the overview
 
 blocks:
+  - name: "hero"
+    data: "import!../app/component/block/hero/data"
+
+  - name: "copy-block"
+    data: "import!../app/component/block/copy-block/data"

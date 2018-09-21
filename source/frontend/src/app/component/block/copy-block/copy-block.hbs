@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="./copy-block.scss">
+<script src="./CopyBlock.ts"></script>
+
+<section class="copy-block" data-component="copy-block" {{#if scrollComponent}}data-scroll-component{{/if}}>
+  <div class="copy">
+    <h1 data-title>{{title}}</h1>
+    <p data-copy>
+      {{copy}}
+    </p>
+  </div>
+</section>

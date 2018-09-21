@@ -1,0 +1,12 @@
+scrollComponent: true
+visual:
+  src: 'image/hero/hero.jpg'
+  alt: 'Lorem ipsum'
+  source:
+    - media: '(min-width: 1024px)'
+      srcset: 'image/hero/hero-full.jpg'
+
+
+title: Lorem ipsum
+copy: >
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, nam!
