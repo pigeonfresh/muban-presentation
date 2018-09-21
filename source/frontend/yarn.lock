@@ -8017,7 +8017,7 @@ schema-utils@^0.4.0, schema-utils@^0.4.2:
     ajv "^5.0.0"
     ajv-keywords "^2.1.0"
 
-scroll-tracker-component-manager@^1.1.1:
+scroll-tracker-component-manager@^1.1.1, scroll-tracker-component-manager@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/scroll-tracker-component-manager/-/scroll-tracker-component-manager-1.1.2.tgz#66bbfdded01c83b2d79ad175d74a3e1423c4cfb5"
   dependencies:
